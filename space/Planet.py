@@ -21,7 +21,7 @@ class Planet:
 
 
 
-# hoth = Planet('Hoth',200000, 5.5, 'Hoth System')
+hoth = Planet('Hoth',200000, 5.5, 'Hoth System')
 # print(f'Name is: {hoth.name}')
 # print(f'Radius is: {hoth.radius}')
 # print(f'The Gravity is: {hoth.gravity}')
@@ -36,4 +36,4 @@ planetXR = Planet('Naboo', 300000, 8, 'Naboo system')
 # print(Planet.shape)
 # print(planetXR.commons())
 #print(Planet.orbit())
-print(Planet.spin('very high speed'))
+#print(Planet.spin('very high speed'))
